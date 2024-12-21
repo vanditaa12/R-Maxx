@@ -1,0 +1,46 @@
+.pricing-comparison {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .pricing-comparison h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subheading {
+    color: #666;
+  }
+  
+  .highlight {
+    color: #ff4a57;
+    margin-bottom: 2rem;
+  }
+  
+  .comparison-table {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .comparison-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .comparison-table td {
+    color: #333;
+  }
+  
+  .comparison-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

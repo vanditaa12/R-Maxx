@@ -1,0 +1,76 @@
+.pricing-section {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .pricing-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-section .highlight {
+    color: #ff4a57;
+  }
+  
+  .cta-row {
+    margin: 1.5rem 0;
+  }
+  
+  .talk-to-sales {
+    background-color: #ff4a57;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-row {
+    margin: 1rem 0;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card.premium {
+    border: 2px solid #ff4a57;
+  }
+  
+  .pricing-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .price span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing-card ul li {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  

@@ -1,0 +1,63 @@
+/* .onboarding {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .onboarding__steps {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .onboarding__step {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 300px;
+  }
+  
+  .step-number {
+    font-size: 2rem;
+    color: #ff5a5f;
+  }
+   */
+
+   .onboarding {
+    padding: 3rem 2rem;
+    background: #fdf7f7; /* Match the background with hero section */
+    text-align: center;
+  }
+  
+  .onboarding h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .onboarding__steps {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .onboarding__step {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .step-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4a57; /* Match step color with branding */
+  }
+  
+  .onboarding__step h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  

@@ -1,0 +1,28 @@
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer__columns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__columns div {
+    text-align: left;
+  }
+  
+  .footer__columns a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer__columns a:hover {
+    text-decoration: underline;
+  }
+  

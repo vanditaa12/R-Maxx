@@ -1,0 +1,101 @@
+.why-rmax {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9; /* Subtle background color */
+  }
+  
+  .why-rmax h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .why-rmax p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* .why-rmax__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  } */
+  .why-rmax__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Enforce 3 items per row */
+    gap: 2rem; /* Space between cards */
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Adjustment for Smaller Screens */
+  @media (max-width: 1024px) {
+    .why-rmax__grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .why-rmax__grid {
+      grid-template-columns: 1fr; /* 1 item per row for small screens */
+    }
+  }  
+  
+  .why-rmax__card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .why-rmax__card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+  
+  .why-rmax__icon {
+    font-size: 2rem;
+    color: #ff4a57; /* Brand color for icons */
+    margin-bottom: 1rem;
+  }
+  
+  .why-rmax__card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .why-rmax__card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .why-rmax__card a {
+    text-decoration: none;
+    color: #ff4a57;
+    font-weight: bold;
+  }
+  
+  .why-rmax__card a:hover {
+    text-decoration: underline;
+  }
+  
+  .why-rmax__icon img {
+    max-width: 50px; /* Set a fixed size for the icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem; /* Space below the icon */
+    border-radius: 8px; /* Add rounded corners to the images */
+    border: 2px solid #ddd; /* Add a light border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add animation */
+  }
+  
+  .why-rmax__icon img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
